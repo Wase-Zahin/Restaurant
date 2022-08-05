@@ -1,0 +1,90 @@
+body {
+    font-family: noto-serif-regular, cursive, sans-serif;
+}
+
+@font-face {
+    font-family: noto-serif-regular;
+    src: url(../fonts/NotoSerif-Regular.ttf);
+}
+
+.foodTime {
+    color: white;
+    font-size: 32px;
+    height: fit-content;
+    width: fit-content;
+    background-color: rgba(0, 0, 0, 0.466);
+    margin: 1rem auto;
+    text-align: center;
+}
+
+.main {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    height: 900px;
+    max-width: 1200px;
+    gap: 1rem;
+    margin: 0 auto;
+}
+
+.main > div {
+    border: 2px solid #ffd651;
+    border-radius: 0.4rem;
+    background-color: rgba(0, 0, 0, 0.466);
+}
+
+.foodDiv {
+    height: 70%;
+    margin: 0 1rem;
+    display: flex;
+    color: white;
+    align-items: center;
+    gap: 2rem;
+}
+
+.foodImg {
+    height: 125px;
+    width: 125px;
+    border-radius: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.prcQntt {
+    display: flex;
+    margin: 0 1rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.price {
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.addrmv {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+}
+.addBtn {
+    height: 36px;
+    width: 36px;
+    background: url('../img/plus.png');
+    cursor: pointer;
+}
+
+.number {
+    color: white;
+}
+.rmvBtn {
+    height: 36px;
+    width: 36px;
+    background: url('../img/minus.png');
+    cursor: pointer;
+}
+
+.foodName {
+    font-weight: bold;
+    font-size: 2rem;
+}

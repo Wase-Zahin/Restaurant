@@ -1,0 +1,71 @@
+html {
+    font-family: noto-serif-italic;
+}
+
+@font-face {
+    font-family: noto-serif-italic;
+    src: url(../fonts/NotoSerif-Regular.ttf);
+}
+
+.msg {
+    background-color: rgba(0, 0, 0, 0.466);
+    display: inline-block;
+    margin-top:12%;
+    margin-left: 25%;
+    color: white;
+    font-weight: 900;
+    font-size: 49px;
+}
+
+.phn, .mail {
+    display: flex;
+    height: fit-content;
+    width: fit-content;
+    margin: 1rem 0;
+    margin-left: 25%;
+}
+
+.phnIcon {
+    height: 48px;
+    width: 48px;
+    background: url('../img/phone.png');
+}
+
+.mailIcon {
+    height: 48px;
+    width: 48px;
+    background: url('../img/email.png');
+}
+
+
+.phnNum, .mailID {
+    color: white;
+    font-size: 32px;
+    margin-left: 1rem;
+    align-self: center;
+    background-color: rgba(0, 0, 0, 0.466);
+}
+
+.socialMedia {
+    display: inline-flex;
+    gap: 2rem;
+    background-color: rgba(0, 0, 0, 0.466);
+    margin-left: 25%;
+}
+
+.facebook, .whatsApp, .weChat {
+    height: 48px;
+    width: 48px;
+}
+
+.facebook {
+    background: url('../img/facebook.png');
+}
+
+.whatsApp {
+    background: url('../img/whatsapp.png');
+}
+
+.weChat {
+    background: url('../img/wechat.png');
+}
